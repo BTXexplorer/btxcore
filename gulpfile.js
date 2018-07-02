@@ -1,5 +1,5 @@
 
 
-var ravencoreTasks = require('ravencore-build');
+var btxcoreTasks = require('btxcore-build');
 
-ravencoreTasks();
+btxcoreTasks();

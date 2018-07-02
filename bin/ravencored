@@ -3,7 +3,7 @@
 'use strict';
 
 var path = require('path');
-var ravencored = require('ravencore-node/lib/cli/ravencored');
+var btxcored = require('btxcore-node/lib/cli/btxcored');
 var servicesPath = path.resolve(__dirname, '../');
 var additionalServices = ['insight-api', 'insight-ui'];
-ravencored(servicesPath, additionalServices);
+btxcored(servicesPath, additionalServices);

@@ -1,5 +1,5 @@
 'use strict';
 
-var ravencore = require('ravencore-lib');
+var btxcore = require('btxcore-lib');
 
-module.exports = ravencore;
+module.exports = btxcore;

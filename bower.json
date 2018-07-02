@@ -1,8 +1,8 @@
 {
-  "name": "ravencore",
-  "main": "./ravencore.min.js",
+  "name": "btxcore",
+  "main": "./btxcore.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/underdarkskies",
+  "homepage": "https://github.com/BTXexplorer",
   "authors": [
     "Under"
   ],
@@ -11,8 +11,8 @@
     "globals"
   ],
   "keywords": [
-    "ravencoin",
-    "ravencore",
+    "bitcore",
+    "btxcore",
     "btc",
     "satoshi"
   ],

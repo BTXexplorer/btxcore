@@ -1,18 +1,18 @@
 {
-  "name": "ravencore",
+  "name": "btxcore",
   "version": "1.0.3",
-  "description": "A platform to build ravencoin and blockchain-based applications.",
+  "description": "A platform to build bitcore and blockchain-based applications.",
   "author": "Under",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive"
   },
   "bin": {
-    "ravencore": "./bin/ravencore",
-    "ravencored": "./bin/ravencored"
+    "btxcore": "./bin/btxcore",
+    "btxcored": "./bin/btxcored"
   },
   "keywords": [
-    "ravencoin",
+    "bitcore",
     "transaction",
     "address",
     "p2p",
@@ -29,16 +29,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/underdarkskies/ravencore.git"
+    "url": "https://github.com/BTXexplorer/btxcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "ravencore-lib": "underdarkskies/ravencore-lib",
-    "ravencore-node": "underdarkskies/ravencore-node",
-    "insight-api": "underdarkskies/insight-api",
-    "insight-ui": "underdarkskies/insight-ui"
+    "btxcore-lib": "BTXexplorer/btxcore-lib",
+    "btxcore-node": "BTXexplorer/btxcore-node",
+    "insight-api": "BTXexplorer/insight-api",
+    "insight-ui": "BTXexplorer/insight-ui"
   },
   "license": "MIT",
   "devDependencies": {
